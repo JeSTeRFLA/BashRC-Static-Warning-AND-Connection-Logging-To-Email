@@ -13,8 +13,7 @@ function put_line
 
 echo -e "\n"
 printf "\x1b[41;97;1m"
-put_line " WARNING "
-put line " Events Logged "
+put_line " WARNING: Events Logged "
 printf "\x1b[0;97m\n"
 put_line "$txtcyn        __________            ___________             $txtrst" ; echo -e ""
 put_line "$txtcyn        \______   \ ____   ___\__    ___/             $txtrst" ; echo -e ""
